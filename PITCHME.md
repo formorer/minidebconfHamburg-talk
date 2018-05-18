@@ -52,10 +52,10 @@
 
 ## Some numbers
 
-### ~23.700 Repos
-### ~3200 Users
-### ~400 Groups
-### ~90 Gigabytes disk space used
+- ~23.700 Repos
+- ~3200 Users
+- ~400 Groups
+- ~90 Gigabytes disk space used
 
 ---
 
