@@ -1,6 +1,6 @@
-# salsa.debian.org - state of affairs
+## salsa.debian.org - state of affairs
 
-## a journey from alioth to salsa
+### a journey from alioth to salsa
 ---
 
 ## Tips!
