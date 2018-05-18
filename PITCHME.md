@@ -110,8 +110,36 @@ a member of a project and mailing around patches. It also allows code review and
 
 +++
 
-- Issues
-- response and manipulate stuff by mail
+### Issues
+
+You can track todo items or bugs (this it **not** intended for debian packaging and should replace the BTS) with the builtin issue tracker. 
+
+You can also reply by mail to an issue.
+
++++
+
+#### close issues by merge request
+
+```
+Closes #333, #444, #555 and #666
+```
+
+you can even close issues in other repos
+
+```
+Closes #333, #444, and https://gitlab.com/<username>/<projectname>/issues/<xxx>
+```
+
+* Close, Closes, Closed, Closing, close, closes, closed, closing
+* Fix, Fixes, Fixed, Fixing, fix, fixes, fixed, fixing
+* Resolve, Resolves, Resolved,Resolving, resolve, resolves, resolved, resolving
+
++++
+
+### create issue by mail
+
+<iframe width="630" height="394" src="https://www.useloom.com/embed/6fdf9ac7a0f4402cb781e4f728df3755" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 ---
 
