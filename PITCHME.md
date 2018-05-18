@@ -357,4 +357,4 @@ replace the **/** with %2F: <br>
 * Jörg Jaspert (ganneff)
 * Alexander Wirt (formorer)
 
----?image=assets/thanks.jpg
+---?image=assets/thanks.jpg&size=auto 90%
