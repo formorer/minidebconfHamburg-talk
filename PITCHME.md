@@ -159,7 +159,9 @@ we run an webhook server on salsa.debian.org. If you want us to run your webhook
 a patch to our repository at [salsa](https://salsa.debian.org/salsa/webhook)
 Documentation is provided in the [Debian Wiki](https://wiki.debian.org/Salsa/Doc#Dealing_with_Debian_BTS_from_commit_messages)
 
-Currently provided hooks:
++++
+
+**Currently provided hooks**:
 
 * tagpending - tag bugs as pending if you mention them in your changelog
 * close - close bugs mentioned in your changelog
