@@ -345,7 +345,7 @@ replace the **/** with %2F: <br>
 ## How we do it
 
 * The whole gitlab installation happens unprivileged in ~git on godard.debian.org
-* installation and updates are automated via (ansible)[https://salsa.debian.org/salsa/ansible]
+* installation and updates are automated via [ansible](https://salsa.debian.org/salsa/ansible)
 
 ---
 
