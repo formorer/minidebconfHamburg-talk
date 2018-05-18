@@ -1,10 +1,7 @@
----?image=assets/image/jeremy-bishop.jpg
+# salsa.debian.org - state of affairs
 
-# Space
-
-### A GitPitch Presentation Template
-
----?image=assets/image/kyle-gregory-devaras.jpg
+## a journey from alioth to salsa
+---
 
 ## Tips!
 
