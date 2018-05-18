@@ -329,3 +329,28 @@ replace the **/** with %2F: <br>
 # curl --header "PRIVATE-TOKEN: $TOKEN" -q \
  'https://salsa.debian.org/api/v4/projects/salsa%2FAliothRewriter/merge_requests?state=opened'
 ```
+
+---
+
+## How to get support
+
+* IRC: #alioth@oftc
+* E-Mail: salsa-admin@debian.org
+* Issue tracker: https://salsa.debian.org/salsa/support/issues
+
+---
+
+## How we do it
+
+* The whole gitlab installation happens unprivileged in ~git on godard.debian.org
+* installation and updates are automated via (ansible)[https://salsa.debian.org/salsa/ansible]
+
+## who are we? 
+
+### we are:
+
+* Bastian Blank (waldi)
+* Jörg Jaspert (ganneff)
+* Alexander Wirt (formorer)
+
+---?image=assets/thanks.jpg
