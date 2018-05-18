@@ -127,7 +127,8 @@ Closes #333, #444, #555 and #666
 you can even close issues in other repos
 
 ```
-Closes #333, #444, and https://gitlab.com/<username>/<projectname>/issues/<xxx>
+Closes #333, #444, and 
+ https://gitlab.com/<username>/<projectname>/issues/<xxx>
 ```
 
 * Close, Closes, Closed, Closing, close, closes, closed, closing
@@ -169,6 +170,8 @@ they want to.
 * ehm, thats it. Watch your pipeline happening. 
 
 +++?gist=formorer/cd32cfbdf5932caad052ca4d14a35efa&lang=YAML
+
++++
 
 ### That was too hard?
 
