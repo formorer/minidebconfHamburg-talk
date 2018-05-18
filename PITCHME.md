@@ -84,3 +84,7 @@
 
 ### how it works
 ### recover your keys
+
+--- 
+
+## some internals about godard and ansible
