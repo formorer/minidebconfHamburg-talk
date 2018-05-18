@@ -286,8 +286,6 @@ your two-factor code. Then, visit your Profile Settings and add
 a new device so you do not lose access to your account again.
 ```
 
---- 
-
 ---
 
 ## API
