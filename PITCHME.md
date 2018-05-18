@@ -306,9 +306,11 @@ replace the **/** with %2F: <br>
 
 ### get data about your user
 
+
 ```shell
+# export $SALSA_URL='https://salsa.debian.org/api/v4/'
 # curl --header "PRIVATE-TOKEN: $GITLAB_API_PRIVATE_TOKEN" \
- 'https://salsa.debian.org/api/v4/users?username=formorer' | jq '.'
+ '$SALSA_URL/users?username=formorer' | jq '.'
 ```
 +++
 
@@ -316,7 +318,7 @@ replace the **/** with %2F: <br>
 
 ```shell
 # curl --header "PRIVATE-TOKEN: $TOKEN" -q -X POST -F "name=testrepo2" \
- 'https://salsa.debian.org/api/v4/projects' | jq '.'
+ '$SALSA_URL/projects' | jq '.'
 ```
 
 **This repo is private!**
@@ -327,7 +329,7 @@ replace the **/** with %2F: <br>
 
 ```shell
 # curl --header "PRIVATE-TOKEN: $TOKEN" -q \
- 'https://salsa.debian.org/api/v4/projects/salsa%2FAliothRewriter/merge_requests?state=opened'
+ '$SALSA_URL/projects/salsa%2FAliothRewriter/merge_requests?state=opened'
 ```
 
 ---
