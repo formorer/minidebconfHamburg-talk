@@ -79,6 +79,11 @@
 
 ## what we left behind
 
+- shells
+- cronjobs
+- custom domains
+- darcs, git, bzr, cvs, svn
+
 ---
 
 ## what we got instead
@@ -101,6 +106,10 @@
 ---
 
 ## API
+
+---
+
+## websites
 
 ---
 
