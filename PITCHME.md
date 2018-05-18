@@ -30,6 +30,11 @@
 
 ## A little bit of history
 
+@ul[squares]
+
+- @debconf15 we had a discussion about the security problems of collab-maint
+- 
+
 --- 
 
 ## Some numbers
@@ -48,7 +53,7 @@
 
 ---
 
-## Cool features of gitlab
+## what we got instead
 
 ---
 
@@ -59,6 +64,9 @@
 
 ---
 
+## webhooks
+
+---
 ## gitlab ci
 
 ---
@@ -72,3 +80,6 @@
 ---
 
 ## 2factor auth
+
+### how it works
+### recover your keys
