@@ -1,9 +1,28 @@
 ## salsa.debian.org - state of affairs
 
 ### a journey from alioth to salsa
+
 ---
 
-## Tips!
+## Who am I?
+
+---
+
+## I am the guy who rejects your mails on lists.debian.org
+
+---
+
+## I am the guy who rejects your backports
+
+---
+
+## I am the guy that will destroy alioth.debian.org
+
+---
+
+## Working as on OpenSource Consultant at credativ in Germany
+
+---
 
 <br>
 
