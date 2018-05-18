@@ -112,7 +112,7 @@ a member of a project and mailing around patches. It also allows code review and
 
 ## Issues
 
-You can track todo items or bugs (this it **not** intended for debian packaging and should replace the BTS) with the builtin issue tracker. 
+You can track todo items or bugs (this it **not** intended for debian packaging and should **not** replace the BTS) with the builtin issue tracker. 
 
 You can also reply by mail to an issue.
 
