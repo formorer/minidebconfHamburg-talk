@@ -99,7 +99,7 @@
 - shells
 - cronjobs
 - custom domains
-- darcs, git, bzr, cvs, svn
+- darcs, bzr, cvs, svn
 
 ---
 
