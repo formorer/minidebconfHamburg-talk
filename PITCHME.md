@@ -92,7 +92,22 @@
 
 ## collaboration
 
-- Merge requests
++++
+
+### Merge requests
+
+People can fork and collaborate on packages / repositories. That allows contribution without being
+a member of a project and mailing around patches. It also allows code review and commenting of patches.
+
++++
+
+![Merge Request](assets/image/mergerequest1.png)
+
++++
+
+![Video](https://www.useloom.com/share/8c9e3569437c4cae933b7464875c7c6d)
+
+
 - Issues
 - response and manipulate stuff by mail
 
