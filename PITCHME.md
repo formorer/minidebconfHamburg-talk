@@ -292,9 +292,41 @@ a new device so you do not lose access to your account again.
 
 ## API
 
-gitlab has a power
----
+gitlab has a powerful JSON REST API which allows to query and to manipulate nearly all aspects of gitlab.
+For authenticated access you will need to generate an API token via *Settings -> Access Tokens*.
 
+Please read the good documentation at https://docs.gitlab.com/ce/api/ - and please use a library!
 
++++
 
-## some internals about godard and ansible
+### namespace encoding
+
+replace the **/** with %2F: *GET /api/v4/projects/debian%2Fdiaspora*
+
++++
+
+### get data about your user
+
+```shell
+# curl --header "PRIVATE-TOKEN: $GITLAB_API_PRIVATE_TOKEN" \
+ 'https://salsa.debian.org/api/v4/users?username=formorer' | jq '.'
+```
++++
+
+### create a repo in your namespace
+
+```shell
+# curl --header "PRIVATE-TOKEN: $TOKEN" -q -X POST -F "name=testrepo2" \
+ 'https://salsa.debian.org/api/v4/projects' | jq '.'
+```
+
+**This repo is private!**
+
++++
+
+### list open merge requests of a project
+
+```shell
+# curl --header "PRIVATE-TOKEN: $TOKEN" -q \
+ 'https://salsa.debian.org/api/v4/projects/salsa%2FAliothRewriter/merge_requests?state=opened'
+```
