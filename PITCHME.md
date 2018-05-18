@@ -64,11 +64,16 @@
 
 ---
 
-## deprecation timeline
-
----
-
 ## future plans
+
+@ul[squares]
+
+- Docker Registry
+- More Runners
+- Devops (needs sponsor!)
+- integration with sso.debian.org
+
+@ulend
 
 ---
 
