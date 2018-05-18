@@ -79,3 +79,10 @@ span.black {
 
 .gp-download { margin-left: 10px; }
 
+.reveal .slides {
+    text-align: left;
+}
+.reveal .slides section>* {
+    margin-left: 0;
+    margin-right: 0;
+}
