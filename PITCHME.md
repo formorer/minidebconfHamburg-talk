@@ -36,19 +36,36 @@
 - 2015-2017 Evaluation of gitolite
 - May 2017 - debian-devel thread about "Moving away from fusionforge"
 - Jun 2017 - survey about the alioth replacement
+
+@ulend
+
++++
+
+@ul[squares]
+
 - Evaluation of pagure, gitlab and gogs/gitea
 - August 2017 Alioth Sprint in Hamburg
 - "add salsa image"
 - 2017-11-01 gitlab removes CLA
 - 2017-12-25 salsa going into public beta
 - 2018-01-27 salsa leaving beta
+
+@ulend
+
++++
+
+@ul[squares]
 - 2018-05-01 user and project creation disabled
 - 2018-05-12 {bzr,hg,darcs}.debian.org disabled
 - 2018-05-18 project websites disabled
 - 2018-05-31 all other version control systems will get disabled
-- 2018-06-01 alioth.debian.org is no more
 
 @ulend
+
++++?image=assets/sad.jpg
+
+## 2018-06-01 alioth.debian.org is no more
+
 
 --- 
 
