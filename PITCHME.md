@@ -6,21 +6,25 @@
 
 ## Who am I?
 
----
+@ul[squares]
 
-## I am the guy who rejects your mails on lists.debian.org
+- I am the guy that rejects your mails on lists.debian.org
+- I am the guy that rejects your backports
+- I am the guy that will destroy alioth.debian.org
 
----
+@ulend
 
-## I am the guy who rejects your backports
++++
 
----
+## And otherwise?
 
-## I am the guy that will destroy alioth.debian.org
+@ul[squares]
 
----
+- working as OpenSource consultant at credativ
+- father of two wonderful girls
+- RPG and Tabletop nerd
 
-## Working as on OpenSource Consultant at credativ in Germany
+@ulend
 
 ---
 
