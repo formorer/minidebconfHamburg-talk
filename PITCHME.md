@@ -174,6 +174,10 @@ Gitlab CI/CD is a powerful continues integration / continues development system 
 to build, test and eventually deploy software and/or packages from within gitlab. That allows developers
 to find problems in their packages soon.
 
++++
+
+### runners
+
 Salsa provides two docker based runners for projects and salsa, but every project can add its own runners if
 they want to. 
 
