@@ -265,6 +265,8 @@ by a u2f compatible key (yubikey and others) or any TOTP compatible token genera
 
 <iframe width="630" height="394" src="https://www.useloom.com/embed/e3c39767ea7e46a7b59522ae58119df1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
++++
+
 ### recover your keys
 
 ```shell
