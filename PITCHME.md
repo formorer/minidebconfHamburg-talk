@@ -48,14 +48,19 @@
 - 2018-05-31 all other version control systems will get disabled
 - 2018-06-01 alioth.debian.org is no more
 
+@ulend
+
 --- 
 
 ## Some numbers
+
+@ul[squares]
 
 - ~23.700 Repos
 - ~3200 Users
 - ~400 Groups
 - ~90 Gigabytes disk space used
+@ulend
 
 ---
 
