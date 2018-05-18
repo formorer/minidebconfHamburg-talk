@@ -105,7 +105,8 @@ a member of a project and mailing around patches. It also allows code review and
 
 +++
 
-![Video](https://www.useloom.com/embed/8c9e3569437c4cae933b7464875c7c6d)
+<iframe width="630" height="394" src="https://www.useloom.com/embed/8c9e3569437c4cae933b7464875c7c6d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 +++
 
