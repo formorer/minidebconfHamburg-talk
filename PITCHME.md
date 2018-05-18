@@ -155,7 +155,7 @@ Webhooks can be used to react to events in your repository, like:
 
 ### providing webhooks
 
-we run an webhook server on salsa.debian.org. If you want us to run your webhook, provide
+we run an webhook server for salsa.debian.org. If you want us to run your webhook, provide
 a patch to our repository at [salsa](https://salsa.debian.org/salsa/webhook)
 Documentation is provided in the [Debian Wiki](https://wiki.debian.org/Salsa/Doc#Dealing_with_Debian_BTS_from_commit_messages)
 
