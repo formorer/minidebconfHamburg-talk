@@ -108,9 +108,9 @@ a member of a project and mailing around patches. It also allows code review and
 <iframe width="630" height="394" src="https://www.useloom.com/embed/8c9e3569437c4cae933b7464875c7c6d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
-+++
+---
 
-### Issues
+## Issues
 
 You can track todo items or bugs (this it **not** intended for debian packaging and should replace the BTS) with the builtin issue tracker. 
 
@@ -118,7 +118,7 @@ You can also reply by mail to an issue.
 
 +++
 
-#### close issues by merge request
+### close issues by merge request
 
 ```
 Closes #333, #444, #555 and #666
@@ -140,13 +140,39 @@ Closes #333, #444, and https://gitlab.com/<username>/<projectname>/issues/<xxx>
 
 <iframe width="630" height="394" src="https://www.useloom.com/embed/6fdf9ac7a0f4402cb781e4f728df3755" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-
 ---
 
 ## webhooks
 
+Webhooks can be used to react to events in your repository, like:
+
+* IRC Notifications
+* Automatically close or tag bugs
+* Trigger external CI/QA systems like jenkins or sonarqube
+
 ---
-## gitlab ci
+
+## Gitlab CI / CD
+
+Gitlab CI/CD is a powerful continues integration / continues development system that allows developers
+to build, test and eventually deploy software and/or packages from within gitlab. That allows developers
+to find problems in their packages soon.
+
+Salsa provides two docker based runners for projects and salsa, but every project can add its own runners if
+they want to. 
+
++++
+
+### How to use it? 
+
+* add a gitlab-ci.yml file to your repo
+* ehm, thats it. Watch your pipeline happening. 
+
++++
+
+### Build debian packages with gitlab ci
+
+---?gist=formorer/cd32cfbdf5932caad052ca4d14a35efa&lang=YAML
 
 ---
 
