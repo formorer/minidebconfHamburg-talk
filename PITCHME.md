@@ -202,17 +202,62 @@ test:
   script:
     - /gitlab-ci-git-buildpackage
 ```
+
+---
+
+## gitlab pages
+
+salsa allows you to hosts project pages under *.pages.debian.net
+
+```yaml
+pages:
+  stage: deploy
+  script:
+  - echo 'Nothing to do...'
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+```
++++
+
+### hugo website
+
+```yaml
+image: registry.gitlab.com/pages/hugo:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+test:
+  script:
+  - hugo
+  except:
+  - master
+
+pages:
+  script:
+  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+```
+
+---
+
+## web editor
+
+<iframe width="630" height="394" src="https://www.useloom.com/embed/0e95cdd80088473695b80a3eb765106e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ---
 
 ## API
 
 ---
 
-## websites
-
----
-
-## web editor
 
 ---
 
