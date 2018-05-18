@@ -299,7 +299,8 @@ Please read the good documentation at https://docs.gitlab.com/ce/api/ - and plea
 
 ### namespace encoding
 
-replace the **/** with %2F: *GET /api/v4/projects/debian%2Fdiaspora*
+replace the **/** with %2F: <br>
+*GET /api/v4/projects/debian%2Fdiaspora*
 
 +++
 
