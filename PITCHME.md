@@ -308,7 +308,7 @@ replace the **/** with %2F: <br>
 
 
 ```shell
-# export $SALSA_URL='https://salsa.debian.org/api/v4/'
+# export SALSA_URL='https://salsa.debian.org/api/v4/'
 # curl --header "PRIVATE-TOKEN: $GITLAB_API_PRIVATE_TOKEN" \
  '$SALSA_URL/users?username=formorer' | jq '.'
 ```
