@@ -181,6 +181,7 @@ to find problems in their packages soon.
 Salsa provides two docker based runners for projects and salsa, but every project can add its own runners if
 they want to. 
 
+** Please be kind to our runners! **
 +++
 
 ### How to use it? 
