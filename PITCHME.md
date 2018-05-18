@@ -168,12 +168,17 @@ they want to.
 * add a gitlab-ci.yml file to your repo
 * ehm, thats it. Watch your pipeline happening. 
 
-+++
++++?gist=formorer/cd32cfbdf5932caad052ca4d14a35efa&lang=YAML
 
-### Build debian packages with gitlab ci
+### That was too hard?
 
----?gist=formorer/cd32cfbdf5932caad052ca4d14a35efa&lang=YAML
+```yaml
+image: registry.gitlab.com/eighthave/ci-image-git-buildpackage:latest
 
+test:
+  script:
+    - /gitlab-ci-git-buildpackage
+```
 ---
 
 ## API
