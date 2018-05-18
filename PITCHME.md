@@ -61,6 +61,7 @@
 
 - Merge requests
 - Issues
+- response and manipulate stuff by mail
 
 ---
 
