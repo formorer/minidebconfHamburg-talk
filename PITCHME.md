@@ -254,18 +254,45 @@ pages:
 
 ---
 
-## API
-
----
-
-
----
-
 ## 2factor auth
 
-### how it works
+gitlab allows to add additional security to your account by using two factor authenticitation either
+by a u2f compatible key (yubikey and others) or any TOTP compatible token generator (google authenticator and others)
+
++++
+
+### how to add
+
+<iframe width="630" height="394" src="https://www.useloom.com/embed/e3c39767ea7e46a7b59522ae58119df1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ### recover your keys
 
+```shell
+ssh git@salsa.debian.org 2fa_recovery_codes 
+Are you sure you want to generate new two-factor recovery codes?
+Any existing recovery codes you saved will be invalidated. (yes/no)
+yes
+
+Your two-factor authentication recovery codes are:
+
+49ca341893ab580f
+*snip*
+cbfe77af35e34417
+
+During sign in, use one of the codes above when prompted for
+your two-factor code. Then, visit your Profile Settings and add
+a new device so you do not lose access to your account again.
+```
+
 --- 
+
+---
+
+## API
+
+gitlab has a power
+---
+
+
 
 ## some internals about godard and ansible
