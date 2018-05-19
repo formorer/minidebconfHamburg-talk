@@ -66,7 +66,7 @@
 
 +++?image=assets/sad.jpg
 
-## <font color="white">2018-06-01 alioth.debian.org is no more</font>
+## <font color="black">2018-06-01 alioth.debian.org is no more</font>
 
 
 --- 
