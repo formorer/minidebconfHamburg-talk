@@ -3,5 +3,5 @@ theme-override : assets/css/PITCHME.css
 logo : assets/credativ.png
 background : assets/image/jeremy-bishop.jpg
 
-logo : assets/image/logo.png
+#logo : assets/image/logo.png
 background : assets/image/octavian-rosca.jpg
